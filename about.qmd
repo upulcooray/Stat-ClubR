@@ -1,19 +1,40 @@
 ---
-title: "About"
-image: profile.jpg
+title: "**Upul Cooray**"
 about:
-  template: jolla
+  id: hero-heading
+  template: trestles
+  image-width: 15em
+  image-shape: round
+  image: upul.jpg
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com
-    - icon: linkedin
-      text: LinkedIn
-      href: https://linkedin.com
     - icon: github
       text: Github
-      href: https://github.com
-
+      href: https://github.com/upulcooray
+    - icon: google
+      text: GoogleScholar
+      href: https://scholar.google.com/citations?hl=en&authuser=1&user=VcgfAmoAAAAJ
 ---
 
-About this blog
+### 
+
+::: {#hero-heading}
+**An average PhD Student** 😳
+
+## 🎓 Education
+
+Tohoku University ![](img/tu.svg){width="30" height="29"} \| 🇯🇵 \| PhD in Public Health \| Sep 2018 - Aug 2022
+
+Universsity College London ![](img/ucl.svg){width="50" height="20"}\| 🇬🇧 \| MSc in Dental Public Health \| Sep 2015 - Aug 2016
+
+University of Peradeniya ![](img/pdu.png){width="30"} \| 🇱🇰 \| Bachelor of Dental Surgery (BDS) \| May 2006 - Aug 2011
+
+## 💙 Interests
+
+Health Inequalities \| Social determinants of health \| Oral Health
+
+Epidemiology \| Biostatistics \| Causal inference \[ with TMLE / LMTP\] \| Machine Learning \| ![](img/R.svg){width="30" height="23"} programming
+
+Cricket \| Badminton \| Movies \| Coding \| Linux
+:::
+
+## 
