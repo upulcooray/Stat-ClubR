@@ -2,25 +2,26 @@
 title: "Welcome"
 author: "Upul Cooray"
 date: "today"
-categories: [news]
+categories: [News]
+image: "layer1.png"
+css: styles.css
 ---
 
 ```{r}
 #| include: false
-
 library(fontawesome)
 ```
 
 **Welcome to Stat ClubR blog!**
 
-Purpose of this blog is to post learning material related to statistical analysis using `r fa("r-project", fill="turquoise")` and various topics relate to applied statistical methods in epidemiological and public health research in general.
+Purpose of this blog is to post learning material related to statistical analysis using `r fa("r-project")` and various topics relate to applied statistical methods in epidemiological and public health research in general.
 
-I started this blog to complement the internal Stat Club in the [*Department of International Oral Health, Graduate School of Dentistry, Tohoku University, Japan*](http://www.dent.tohoku.ac.jp/english/research/international_oral_health.html){style="color:gray;"}*.* People in my lab mostly use **`stata`** for data analyses. Purpose of this **Stat Club** is to help them transitions into `r fa("r-project", fill="turquoise")` gradually.
+I started this blog to complement the internal Stat Club in the [*Department of International Oral Health, Graduate School of Dentistry, Tohoku University, Japan*](http://www.dent.tohoku.ac.jp/english/research/international_oral_health.html){style="color:gray;"}*.* People in my lab mostly use **`stata`** for data analyses. Purpose of this **Stat Club** is to help them transitions into `r fa("r-project")` gradually.
 
 ***Now you must be thinking.. "why listen to this guy 🤔!!"***
 
-I myself is **not an** `r fa("r-project", fill="turquoise")` **expert**. I switched to `r fa("r-project", fill="turquoise")` (from stata) about 8 months ago simply because I didn't want to deal with the hazel of stata subcriptions. I started learning R by simply translating my old stata `.do` into `R code`. I fell in love 💗 with R ecosystem and `tidyverse` within few months. Currently, my whole workflow revolve around `r fa("r-project", fill="turquoise")` (data analyses, writing manuscripts, making presentations, building this blog, and my PhD thesis).
+I myself is **not an** `r fa("r-project")` **expert**. I switched to `r fa("r-project")` (from stata) about a year ago simply because I didn't want to deal with the hazel of stata subcriptions. I started learning R by simply translating my old stata `.do` into `R code`. I fell in 💗 with R ecosystem and `tidyverse` within few months. Currently, my whole workflow revolve around `r fa("r-project")` (data analyses, writing manuscripts, making presentations, building this blog, and my PhD thesis).
 
-I will try my best to share my experience stata to R transition experience. And let's learn some statistics and new methods along the way.
+I will try my best to share my stata to R transition experience. And let's learn some statistics and new methods along the way.
 
-よろしくお願いします!!!
+🙏 よろしくお願いします!!!
