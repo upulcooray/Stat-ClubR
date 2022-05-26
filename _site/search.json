@@ -2,7 +2,7 @@
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Upul Cooray",
+    "title": "About Me",
     "section": "",
     "text": "Github\n  GoogleScholar\n\n  \n  \nAn average PhD Student 😳\n\n\nTohoku University  | 🇯🇵 | PhD in Public Health | Sep 2018 - Aug 2022\nUniverssity College London | 🇬🇧 | MSc in Dental Public Health | Sep 2015 - Aug 2016\nUniversity of Peradeniya  | 🇱🇰 | Bachelor of Dental Surgery (BDS) | May 2006 - Aug 2011\n\n\n\nHealth Inequalities | Social determinants of health | Oral Health\nEpidemiology | Biostatistics | Causal inference [ with TMLE / LMTP] | Machine Learning |  programming\nCricket | Badminton | Movies | Coding | Linux"
   },
@@ -16,15 +16,15 @@
   {
     "objectID": "posts/welcome/index.html",
     "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
+    "title": "Welcome",
     "section": "",
-    "text": "Since this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "Purpose of this blog is to post learning material related to statistical analysis using  and various topics relate to applied statistical methods in epidemiological and public health research in general.\nI started this blog to complement the internal Stat Club in the Department of International Oral Health, Graduate School of Dentistry, Tohoku University, Japan. People in my lab mostly use stata for data analyses. Purpose of this Stat Club is to help them transitions into  gradually.\nNow you must be thinking.. “why listen to this guy 🤔!!”\nI myself is not an  expert. I switched to  (from stata) about 8 months ago simply because I didn’t want to deal with the hazel of stata subcriptions. I started learning R by simply translating my old stata .do into R code. I fell in love 💗 with R ecosystem and tidyverse within few months. Currently, my whole workflow revolve around  (data analyses, writing manuscripts, making presentations, building this blog, and my PhD thesis).\nI will try my best to share my experience stata to R transition experience. And let’s learn some statistics and new methods along the way.\nよろしくお願いします!!!"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Stat ClubR",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 22, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nMay 26, 2022\n\n\nUpul Cooray\n\n\n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\nNo matching items"
   }
 ]

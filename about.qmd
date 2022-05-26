@@ -1,5 +1,5 @@
 ---
-title: "**Upul Cooray**"
+title: "**About Me**"
 about:
   id: hero-heading
   template: trestles

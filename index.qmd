@@ -1,5 +1,5 @@
 ---
-title: "Stat ClubR"
+title: ""
 listing:
   contents: posts
   sort: "date desc"
