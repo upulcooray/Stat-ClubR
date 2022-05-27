@@ -20,7 +20,7 @@ Looks like this..!
 
 ![](rgui.jpg){width="800"}
 
-Almost all R users use an alternative IDE known as R-studio which is makes your R learning a much pleasant. We will explore Rstudio features later.
+Almost all R users use an alternative IDE known as R-studio which makes your R learning a much pleasant experience. We will explore Rstudio features later.
 
 R studio looks like this!
 
