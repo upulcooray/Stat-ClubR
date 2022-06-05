@@ -39,3 +39,5 @@ Now you are all set to start coding in R...!!!
 Check your installation by opening Rstudio and just typing `1 + 1` in the **console window** and press `Enter key`.
 
 ![like this](console.png){fig-align="left"}
+
+Now you are ready to start learning R...! 👍
