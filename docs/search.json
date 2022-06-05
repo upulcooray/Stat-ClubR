@@ -25,6 +25,13 @@
     "href": "index.html",
     "title": "Stat ClubR",
     "section": "",
-    "text": "Welcome\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nJun 5, 2022\n\n\nUpul Cooray\n\n\n\n\n\n\n  \n\n\n\n\nGetting Started\n\n\n\n\n\n\n\nNews\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2022\n\n\nUpul Cooray\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome\n\n\n\n\n\n\n\nNews\n\n\n\n\n\n\n\n\n\n\n\nJun 5, 2022\n\n\nUpul Cooray\n\n\n\n\n\n\n  \n\n\n\n\nInstalling R packages\n\n\n\n\n\n\n\nNews\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\nJun 4, 2022\n\n\nUpul Cooray\n\n\n\n\n\n\n  \n\n\n\n\nGetting Started\n\n\n\n\n\n\n\nNews\n\n\nTutorials\n\n\n\n\n\n\n\n\n\n\n\nMay 25, 2022\n\n\nUpul Cooray\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/installing-essential-packages/index.html",
+    "href": "posts/installing-essential-packages/index.html",
+    "title": "Installing R packages",
+    "section": "",
+    "text": "Now your R installation has loaded with some functions (we will talk about functions in greater depth later..) these functions are capable of performing a particular computation.\nFor example sqrt() function can computes square root of any number you type within those brackets (identical to stata 😃)\nThese default functions that come with R installation are known as Base R functions.\nHowever, the versatility of R comes from it’s external packages 📦.\nA package simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.\nAs of today, there are 18636 packages are available in official R package repository (https://cran.r-project.org/web/packages/).\nR has a very active & passionate open source community. They create new packages everyday. Often you can find a package or a function to implement what ever you want."
   }
 ]

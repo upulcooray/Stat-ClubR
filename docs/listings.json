@@ -3,6 +3,7 @@
     "listing": "/index.html",
     "items": [
       "/posts/welcome/index.html",
+      "/posts/installing-essential-packages/index.html",
       "/posts/getting-started/index.html"
     ]
   }

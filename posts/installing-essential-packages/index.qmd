@@ -1,0 +1,24 @@
+---
+title: "Installing R packages"
+title-block-banner: true
+author: "Upul Cooray"
+date: "2022-06-04"
+categories: [News, Tutorials]
+image: "img.png"
+---
+
+I hope everyone was able to install R and Rstudio successfully!
+
+Now your R installation has loaded with some functions (we will talk about functions in greater depth later..) these functions are capable of performing a particular computation.
+
+For example `sqrt()` function can computes square root of any number you type within those brackets (identical to `stata` 😃)
+
+These default functions that come with R installation are known as [Base R functions]{.red}.
+
+However, the versatility of R comes from it's external packages 📦.
+
+A package simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.
+
+As of today, there are 18636 packages are available in official R package repository (https://cran.r-project.org/web/packages/).
+
+R has a very active & passionate open source community. They create new packages everyday. Often you can find a package or a function to implement what ever you want.

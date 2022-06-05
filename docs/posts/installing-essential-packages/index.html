@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Upul Cooray">
+<meta name="dcterms.date" content="2022-06-04">
 
-<title>Stat ClubR -</title>
+<title>Stat ClubR - Installing R packages</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,27 +19,25 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 </style>
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<link href="./img/R.svg" rel="icon" type="image/svg+xml">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link class="quarto-color-scheme" id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
-<link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" id="quarto-text-highlighting-styles" href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link class="quarto-color-scheme" href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-<link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" href="site_libs/bootstrap/bootstrap-dark.min.css">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<link href="../../img/R.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link class="quarto-color-scheme" id="quarto-text-highlighting-styles" href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
+<link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" id="quarto-text-highlighting-styles" href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link class="quarto-color-scheme" href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
+<link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" href="../../site_libs/bootstrap/bootstrap-dark.min.css">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -57,33 +57,9 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-  </script>
-
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 </head>
 
 <body class="nav-fixed">
@@ -92,7 +68,7 @@ ul.task-list{list-style: none;}
   <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <a class="navbar-brand" href="./index.html">
+      <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title"><em>Stat Club</em><strong>R</strong></span>
   </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -101,7 +77,7 @@ ul.task-list{list-style: none;}
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"><strong>Upul Cooray</strong></a>
+    <a class="nav-link" href="../../about.html"><strong>Upul Cooray</strong></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/upulcooray"><i class="bi bi-github" role="img">
@@ -123,140 +99,59 @@ ul.task-list{list-style: none;}
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Installing R packages</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">News</div>
+                <div class="quarto-category">Tutorials</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Upul Cooray </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 4, 2022</p>
+      </div>
+    </div>
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="News">News <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Tutorials">Tutorials <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
-
-
-
-<hr>
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="News" data-listing-date-sort="1654354800000" data-listing-file-modified-sort="1653574777421" data-listing-reading-time-sort="0.975">
-<div class="thumbnail">
-<p><a href="./posts/welcome/index.html"> <img src="./posts/welcome/layer1.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/welcome/index.html">
-<h3 class="no-anchor listing-title">
-Welcome
-</h3>
-<div class="listing-subtitle">
+<p>I hope everyone was able to install R and Rstudio successfully!</p>
+<p>Now your R installation has loaded with some functions (we will talk about functions in greater depth later..) these functions are capable of performing a particular computation.</p>
+<p>For example <code>sqrt()</code> function can computes square root of any number you type within those brackets (identical to <code>stata</code> 😃)</p>
+<p>These default functions that come with R installation are known as <span class="red">Base R functions</span>.</p>
+<p>However, the versatility of R comes from it’s external packages 📦.</p>
+<p>A package simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.</p>
+<p>As of today, there are 18636 packages are available in official R package repository (https://cran.r-project.org/web/packages/).</p>
+<p>R has a very active &amp; passionate open source community. They create new packages everyday. Often you can find a package or a function to implement what ever you want.</p>
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('News'); return false;">
-News
-</div>
-</div>
-<a href="./posts/welcome/index.html">
-<div class="listing-description">
-<strong>Welcome to Stat ClubR blog!</strong>
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html">
-<div class="listing-date">
-Jun 5, 2022
-</div>
-<div class="listing-author">
-Upul Cooray
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="News,Tutorials" data-listing-date-sort="1654268400000" data-listing-file-modified-sort="1654438257739" data-listing-reading-time-sort="0.745">
-<div class="thumbnail">
-<p><a href="./posts/installing-essential-packages/index.html"> <img src="./posts/installing-essential-packages/img.png" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/installing-essential-packages/index.html">
-<h3 class="no-anchor listing-title">
-Installing R packages
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('News'); return false;">
-News
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorials'); return false;">
-Tutorials
-</div>
-</div>
-<a href="./posts/installing-essential-packages/index.html">
-<div class="listing-description">
-I hope everyone was able to install R and Rstudio successfully!
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/installing-essential-packages/index.html">
-<div class="listing-date">
-Jun 4, 2022
-</div>
-<div class="listing-author">
-Upul Cooray
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="News,Tutorials" data-listing-date-sort="1653404400000" data-listing-file-modified-sort="1654431967195" data-listing-reading-time-sort="0.875">
-<div class="thumbnail">
-<p><a href="./posts/getting-started/index.html"> <img src="./posts/getting-started/img.jpg" class="thumnail-image"> </a></p>
-</div>
-<div class="body">
-<a href="./posts/getting-started/index.html">
-<h3 class="no-anchor listing-title">
-Getting Started
-</h3>
-<div class="listing-subtitle">
 
-</div>
-</a>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('News'); return false;">
-News
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Tutorials'); return false;">
-Tutorials
-</div>
-</div>
-<a href="./posts/getting-started/index.html">
-<div class="listing-description">
-You need R language installed in your PC to start coding in R. Default graphical user interface of R is not very pleasant to work with.
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/getting-started/index.html">
-<div class="listing-date">
-May 25, 2022
-</div>
-<div class="listing-author">
-Upul Cooray
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const disableStylesheet = (stylesheets) => {
