@@ -51,8 +51,27 @@ Now that you have `devtools` installed, you can grab this package directly from 
 
 Will will install other packages when we need them. You can do most of the stuff only with `tidyverse`
 
-## Download dataset
+## Download data
 
 For our future tutorial I am thinking of using NHANES data (as it is **open** and relevant to us )
 
-I extracted some data from NHANES website (I used this data for a actual study). I will the
+I extracted some data from NHANES website (I used this data for a actual study). I will use this data for future tutorial. Please check if you can download it.
+
+```{r echo=F}
+
+ 
+
+downloadthis::download_link(
+  link = "https://github.com/upulcooray/Stat-ClubR/blob/main/resources/nhanes_extracted.rds",
+  button_label = "Download nhanes_extracted.rds file",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fa fa-save",
+  self_contained = FALSE,
+  class= "hvr-sweep-to-left"
+)
+
+
+
+
+```

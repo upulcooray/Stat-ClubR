@@ -40,5 +40,12 @@
     "title": "Installing R packages",
     "section": "Download dataset",
     "text": "Download dataset\nFor our future tutorial I am thinking of using NHANES data (as it is open and relevant to us )\nI extracted some data from NHANES website (I used this data for a actual study). I will the"
+  },
+  {
+    "objectID": "posts/installing-essential-packages/index.html#download-data",
+    "href": "posts/installing-essential-packages/index.html#download-data",
+    "title": "Installing R packages",
+    "section": "Download data",
+    "text": "Download data\nFor our future tutorial I am thinking of using NHANES data (as it is open and relevant to us )\nI extracted some data from NHANES website (I used this data for a actual study). I will use this data for future tutorial. Please check if you can download it.\n\n\n\n Download nhanes_extracted.rds file"
   }
 ]
