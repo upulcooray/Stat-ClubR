@@ -147,9 +147,28 @@ ul.task-list{list-style: none;}
 <p>However, the versatility of R comes from it’s external packages 📦.</p>
 <p>A package simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.</p>
 <p>As of today, there are 18636 packages are available in official R package repository (https://cran.r-project.org/web/packages/).</p>
-<p>R has a very active &amp; passionate open source community. They create new packages everyday. Often you can find a package or a function to implement what ever you want.</p>
+<p>R has a very active &amp; passionate open source community. They are new new packages coming up everyday. Often, you can find a package or a function to implement what ever you want.</p>
+<p>For starters, lets install some of of useful packages for our data manipulation purposes.</p>
+<p>The first package I load when ever I open up Rstudio is <code>tidyverse</code> ❣️. <code>tidyverse</code> package is a collection of multiple packages 📦📦📦 (8 packges to be exact). You will gradually get familiar with tidyverse packages and their functions. Just need to have some patients.. 😌.</p>
+<p>Type following code in Rstudio console to install tidyverse;</p>
+<p><code>install.packages("tidyverse")</code></p>
+<p>This is how you install any official R package from the package repository.</p>
+<p><code>install.packages("package_name")</code></p>
+<p>However, sometimes you might find some packages with useful functions which are not on official R repository yet. You can install those packages directly from developers <code>github</code> page. To do that, you will need another utility package called <code>devtools</code> .</p>
+<p>So, please go ahead and,</p>
+<p><code>install.packages("devtools")</code></p>
+<p>When I transition form <code>stata</code> initially, one thing I missed the most about <code>stata</code> is stata’s <code>tab</code> function. I know you all love <code>tab</code> function. Someone has written a R function to mimic stata <code>tab</code> but it is not on official repo yet.</p>
+<p>Now that you have <code>devtools</code> installed, you can grab this package directly from <code>github</code></p>
+<pre><code>devtools::install_github("gvelasq/tidytab")</code></pre>
+<p>❗ we have <code>tab</code> now 🤝.</p>
+<p>Will will install other packages when we need them. You can do most of the stuff only with <code>tidyverse</code></p>
+<section id="download-dataset" class="level2">
+<h2 class="anchored" data-anchor-id="download-dataset">Download dataset</h2>
+<p>For our future tutorial I am thinking of using NHANES data (as it is <strong>open</strong> and relevant to us )</p>
+<p>I extracted some data from NHANES website (I used this data for a actual study). I will the</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

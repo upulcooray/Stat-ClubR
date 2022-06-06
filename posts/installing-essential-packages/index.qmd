@@ -21,4 +21,38 @@ A package simply a collection of functions. Once you have a package installed on
 
 As of today, there are 18636 packages are available in official R package repository (https://cran.r-project.org/web/packages/).
 
-R has a very active & passionate open source community. They create new packages everyday. Often you can find a package or a function to implement what ever you want.
+R has a very active & passionate open source community. They are new new packages coming up everyday. Often, you can find a package or a function to implement what ever you want.
+
+For starters, lets install some of of useful packages for our data manipulation purposes.
+
+The first package I load when ever I open up Rstudio is `tidyverse` ❣️. `tidyverse` package is a collection of multiple packages 📦📦📦 (8 packges to be exact). You will gradually get familiar with tidyverse packages and their functions. Just need to have some patients.. 😌.
+
+Type following code in Rstudio console to install tidyverse;
+
+`install.packages("tidyverse")`
+
+This is how you install any official R package from the package repository.
+
+`install.packages("package_name")`
+
+However, sometimes you might find some packages with useful functions which are not on official R repository yet. You can install those packages directly from developers `github` page. To do that, you will need another utility package called `devtools` .
+
+So, please go ahead and,
+
+`install.packages("devtools")`
+
+When I transition form `stata` initially, one thing I missed the most about `stata` is stata's `tab` function. I know you all love `tab` function. Someone has written a R function to mimic stata `tab` but it is not on official repo yet.
+
+Now that you have `devtools` installed, you can grab this package directly from `github`
+
+    devtools::install_github("gvelasq/tidytab")
+
+❗ we have `tab` now 🤝.
+
+Will will install other packages when we need them. You can do most of the stuff only with `tidyverse`
+
+## Download dataset
+
+For our future tutorial I am thinking of using NHANES data (as it is **open** and relevant to us )
+
+I extracted some data from NHANES website (I used this data for a actual study). I will the
