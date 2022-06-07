@@ -11,19 +11,19 @@ I hope everyone was able to install R and Rstudio successfully!
 
 Now your R installation has loaded with some functions (we will talk about functions in greater depth later..) these functions are capable of performing a particular computation.
 
-For example `sqrt()` function can computes square root of any number you type within those brackets (identical to `stata` 😃)
+For example `sqrt()` function can compute square root of any number you type within those brackets (identical to `stata` 😃)
 
-These default functions that come with R installation are known as [Base R functions]{.red}.
+These default functions that come with R installation are known as __Base R functions__.
 
-However, the versatility of R comes from it's external packages 📦.
+However, the versatility of R comes from its external packages 📦.
 
-A package simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.
+A package is simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.
 
-As of today, there are 18636 packages are available in official R package repository (https://cran.r-project.org/web/packages/).
+As of today, there are 18636 packages available in official R package repository ![CRAN](https://cran.r-project.org/web/packages/).
 
-R has a very active & passionate open source community. They are new new packages coming up everyday. Often, you can find a package or a function to implement what ever you want.
+R has a very active & passionate open source community. There are new packages coming up everyday. Often, you can find a package or a function to implement what ever you want.
 
-For starters, lets install some of of useful packages for our data manipulation purposes.
+For starters, lets install some of useful packages for our data manipulation purposes.
 
 The first package I load when ever I open up Rstudio is `tidyverse` ❣️. `tidyverse` package is a collection of multiple packages 📦📦📦 (8 packges to be exact). You will gradually get familiar with tidyverse packages and their functions. Just need to have some patients.. 😌.
 
@@ -45,17 +45,17 @@ When I transition form `stata` initially, one thing I missed the most about `sta
 
 Now that you have `devtools` installed, you can grab this package directly from `github`
 
-    devtools::install_github("gvelasq/tidytab")
+`devtools::install_github("gvelasq/tidytab")`
 
 ❗ we have `tab` now 🤝.
 
-Will will install other packages when we need them. You can do most of the stuff only with `tidyverse`
+We will install other packages when we need them. You can do most of the stuff only with `tidyverse`
 
 ## Download data
 
 For our future tutorial I am thinking of using NHANES data (as it is **open** and relevant to us )
 
-I extracted some data from NHANES website (I used this data for a actual study). I will use this data for future tutorial. Please check if you can download it.
+I extracted some data from NHANES website (I used this data for a actual study). Please check if you can download it using the following link.
 
 ```{r echo=F}
 

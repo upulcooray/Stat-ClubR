@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-0.9.446">
+<meta name="generator" content="quarto-0.9.522">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -19,25 +19,26 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 </style>
 
+
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
-<meta name="quarto:offset" content="../../">
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
 <link href="../../img/R.svg" rel="icon" type="image/svg+xml">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link class="quarto-color-scheme" id="quarto-text-highlighting-styles" href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet">
-<link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" id="quarto-text-highlighting-styles" href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link class="quarto-color-scheme" href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet">
-<link class="quarto-color-scheme quarto-color-alternate" rel="prefetch" href="../../site_libs/bootstrap/bootstrap-dark.min.css">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,7 +103,7 @@ ul.task-list{list-style: none;}
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
+    <div class="quarto-title column-page">
       <h1 class="title">Installing R packages</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">News</div>
@@ -143,13 +144,13 @@ ul.task-list{list-style: none;}
 
 <p>I hope everyone was able to install R and Rstudio successfully!</p>
 <p>Now your R installation has loaded with some functions (we will talk about functions in greater depth later..) these functions are capable of performing a particular computation.</p>
-<p>For example <code>sqrt()</code> function can computes square root of any number you type within those brackets (identical to <code>stata</code> 😃)</p>
-<p>These default functions that come with R installation are known as <span class="red">Base R functions</span>.</p>
-<p>However, the versatility of R comes from it’s external packages 📦.</p>
-<p>A package simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.</p>
-<p>As of today, there are 18636 packages are available in official R package repository (https://cran.r-project.org/web/packages/).</p>
-<p>R has a very active &amp; passionate open source community. They are new new packages coming up everyday. Often, you can find a package or a function to implement what ever you want.</p>
-<p>For starters, lets install some of of useful packages for our data manipulation purposes.</p>
+<p>For example <code>sqrt()</code> function can compute square root of any number you type within those brackets (identical to <code>stata</code> 😃)</p>
+<p>These default functions that come with R installation are known as <strong>Base R functions</strong>.</p>
+<p>However, the versatility of R comes from its external packages 📦.</p>
+<p>A package is simply a collection of functions. Once you have a package installed on top base R, you can access all the functions offered by that particular package.</p>
+<p>As of today, there are 18636 packages available in official R package repository <img src="https://cran.r-project.org/web/packages/.png" class="img-fluid" alt="CRAN">.</p>
+<p>R has a very active &amp; passionate open source community. There are new packages coming up everyday. Often, you can find a package or a function to implement what ever you want.</p>
+<p>For starters, lets install some of useful packages for our data manipulation purposes.</p>
 <p>The first package I load when ever I open up Rstudio is <code>tidyverse</code> ❣️. <code>tidyverse</code> package is a collection of multiple packages 📦📦📦 (8 packges to be exact). You will gradually get familiar with tidyverse packages and their functions. Just need to have some patients.. 😌.</p>
 <p>Type following code in Rstudio console to install tidyverse;</p>
 <p><code>install.packages("tidyverse")</code></p>
@@ -160,13 +161,13 @@ ul.task-list{list-style: none;}
 <p><code>install.packages("devtools")</code></p>
 <p>When I transition form <code>stata</code> initially, one thing I missed the most about <code>stata</code> is stata’s <code>tab</code> function. I know you all love <code>tab</code> function. Someone has written a R function to mimic stata <code>tab</code> but it is not on official repo yet.</p>
 <p>Now that you have <code>devtools</code> installed, you can grab this package directly from <code>github</code></p>
-<pre><code>devtools::install_github("gvelasq/tidytab")</code></pre>
+<p><code>devtools::install_github("gvelasq/tidytab")</code></p>
 <p>❗ we have <code>tab</code> now 🤝.</p>
-<p>Will will install other packages when we need them. You can do most of the stuff only with <code>tidyverse</code></p>
+<p>We will install other packages when we need them. You can do most of the stuff only with <code>tidyverse</code></p>
 <section id="download-data" class="level2">
 <h2 class="anchored" data-anchor-id="download-data">Download data</h2>
 <p>For our future tutorial I am thinking of using NHANES data (as it is <strong>open</strong> and relevant to us )</p>
-<p>I extracted some data from NHANES website (I used this data for a actual study). I will use this data for future tutorial. Please check if you can download it.</p>
+<p>I extracted some data from NHANES website (I used this data for a actual study). Please check if you can download it using the following link.</p>
 <div class="cell">
 <div class="cell-output-display">
 <a href="https://github.com/upulcooray/Stat-ClubR/blob/main/resources/nhanes_extracted.rds">
