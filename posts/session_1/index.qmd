@@ -1,5 +1,5 @@
 ---
-title: "Installing R packages"
+title: "Session 01"
 title-block-banner: true
 author: "Upul Cooray"
 date: "2022-06-09"
@@ -11,25 +11,23 @@ image: "s1.png"
 
 Today we will start by familiarizing ourselves with Rstudio interface.
 
-First, I want you to apply some setting in the Rstudio;
+First, I want you to apply some settings in the Rstudio;
 
 Please go to `Tools -> Global options`
 
-![](img1.png){fig-align="center" width="383"}
-
-Make sure settings in red circled areas are similar to as shown in the picture above (this prevents some future headaches when you work on a project)
+![Make sure settings in red circled areas are similar to as shown in the picture above (this prevents some future headaches when you work on a project)](img1.png){fig-align="center" width="383"}
 
 I will walk you through the Rstudio interface main features. You will become very familiar with it once we start actual data analysis.
 
-Then, I will introduce my workflow in starting a new project and why I do that. This might not be optimal for you all, once you are familiar with the R environment feel free to adapt your own method.
+Then, I will introduce my workflow in starting a new project (*and why I do that*). This might not be optimal for everyone, once you are familiar with the R environment, feel free to adapt your own method.
 
 1.  Usually, I always create a dedicated R project for all my projects. Let's all create a R project for this stat club.
 
-you will also have to understand little bit about
+You will also have to understand a little bit about;
 
 1.  Creating sub folders
 2.  Understanding project root directory
-3.  Understand how to use relative paths (this makes your project portable .. meaning you can just copy and past you project anywhere and nothing will break)
+3.  Understand how to use relative paths from root directory (this makes your project portable .. meaning you can just copy and past you project anywhere and nothing will break)
 
 `excersice 1` : create a folder name `data` within you stat club project and move `nhanes_extracted.rds` file into that folder.
 
