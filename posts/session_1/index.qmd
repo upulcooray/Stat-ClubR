@@ -1,0 +1,46 @@
+---
+title: "Installing R packages"
+title-block-banner: true
+author: "Upul Cooray"
+date: "2022-06-09"
+categories: [Tutorials]
+image: "s1.png"
+---
+
+## Welcome to session 1
+
+Today we will start by familiarizing ourselves with Rstudio interface.
+
+First, I want you to apply some setting in the Rstudio;
+
+Please go to `Tools -> Global options`
+
+![](img1.png){fig-align="center" width="383"}
+
+Make sure settings in red circled areas are similar to as shown in the picture above (this prevents some future headaches when you work on a project)
+
+I will walk you through the Rstudio interface main features. You will become very familiar with it once we start actual data analysis.
+
+Then, I will introduce my workflow in starting a new project and why I do that. This might not be optimal for you all, once you are familiar with the R environment feel free to adapt your own method.
+
+1.  Usually, I always create a dedicated R project for all my projects. Let's all create a R project for this stat club.
+
+you will also have to understand little bit about
+
+1.  Creating sub folders
+2.  Understanding project root directory
+3.  Understand how to use relative paths (this makes your project portable .. meaning you can just copy and past you project anywhere and nothing will break)
+
+`excersice 1` : create a folder name `data` within you stat club project and move `nhanes_extracted.rds` file into that folder.
+
+(download link for data is in <https://upulcooray.github.io/Stat-ClubR/posts/installing-essential-packages/> )
+
+Then, let's create our first R script. R scripts are similar to `stata .do file` . R script files has `.R` extension at the end ( I usually keep R scrips in a separate folder within the peoject)
+
+To check our understanding of relative paths, lets try to summon `nhanes_extracted.rds` file which is located within data folder using a R script named `basics.R`
+
+we can use `readRDS()` function for this purpose.
+
+> note: `.rds` is a R specific data format you can save any object in your R environment as a `.rds` file. I used .rds file to distribute data because the file size of `.rds` is significantly less compared to `.csv`
+
+If there is enough time lets talk little bit about R data types as well.
