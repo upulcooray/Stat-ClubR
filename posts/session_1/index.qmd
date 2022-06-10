@@ -27,7 +27,7 @@ You will also have to understand a little bit about;
 
 1.  Creating sub folders
 2.  Understanding project root directory
-3.  Understand how to use relative paths from root directory (this makes your project portable .. meaning you can just copy and past you project anywhere and nothing will break)
+3.  Understand how to use relative paths from root directory (this makes your project portable .. meaning you can just copy and paste you project anywhere and nothing will break)
 
 `excersice 1` : create a folder name `data` within you stat club project and move `nhanes_extracted.rds` file into that folder.
 
